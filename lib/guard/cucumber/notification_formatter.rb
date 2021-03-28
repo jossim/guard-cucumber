@@ -37,8 +37,8 @@ module Guard
       # @param [String, IO] path_or_io the path or IO to the feature file
       # @param [Hash] options the options
       #
-      def initialize(step_mother, _path_or_io, options)
-        @options = options
+      def initialize(step_mother, _path_or_io)
+        # @options = options
         @file_names = []
         @step_mother = step_mother
         @feature = nil
